@@ -61,7 +61,7 @@
 
 .post {
     flex: 5;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
 }
 
 .description .desc {
@@ -71,3 +71,30 @@
 }
 
 /* RESPONSIVE DESIGN */
+@media screen and (max-width: 1536px) {
+    .title {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .imageContainer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .description .desc {
+        font-size: 1rem;
+    }
+}
