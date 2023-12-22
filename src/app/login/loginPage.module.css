@@ -38,3 +38,21 @@
 .socialButton:nth-child(3) {
     background-color: #087BEA;
 }
+
+/* RESPONSIVE DESING */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 3.125rem 6.25rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        padding: 2rem 3rem;
+    }
+
+    .socialButton {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}
