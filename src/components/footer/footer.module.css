@@ -1,0 +1,81 @@
+.container {
+    margin-top: 3.125rem;
+    padding: 1.25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--softTextColor);
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.logoText {
+    font-size: 1.5rem;
+}
+
+.desc {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.icons {
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.listTitle {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1024px) {
+    .links {
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .links {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .links {
+        font-size: 0.9rem;
+    }
+}
